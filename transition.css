@@ -1,0 +1,15 @@
+div {
+    width: 100px;
+    height: 1000px;
+    background: blue;
+    transition: width 2s, height 4s;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+    
+  }
+  div:hover {
+    width: 1880px;
+    background-color: black;
+  }
+ 
